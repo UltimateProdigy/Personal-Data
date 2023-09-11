@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Personal Data(HNG)</title>
+  </head>
+  <body>
+    <header>My Personal Data</header>
+    <div class="details">
+      <div class="name">
+        <label>Slack Username:</label>
+        <span data-testid="slackUserName">CodieProdigy</span>
+      </div>
+      <div>
+        <label>Slack profile picture:</label>
+        <img
+          data-testid="slackDisplayImage"
+          class="slackimg"
+          src="https://ca.slack-edge.com/T05FFAA91JP-U05RAAE63LK-3e553d54c868-512"
+          alt=""
+        />
+      </div>
+      <div>
+        <span data-testid="currentDayOfTheWeek" id="dayOfWeek"></span>
+      </div>
+      <div>
+        <span data-testid="currentUTCTime" id="currentTime"></span>
+      </div>
+      <div>
+        <label>Track:</label>
+        <span data-testid="myTrack">Frontend Development</span>
+      </div>
+      <div>
+        <label>GitHub URL:</label>
+        <a
+          data-testid="githubURL"
+          href="https://github.com/UltimateProdigy/Personal-Data"
+          >www.github.com/UltimateProdigy</a
+        >
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
